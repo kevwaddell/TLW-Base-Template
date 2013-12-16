@@ -67,28 +67,4 @@ function change_tag_object_label() {
 	$labels->choose_from_most_used = 'Choose from the most used subjects';
 	}
 add_action( 'init', 'change_tag_object_label' );
-
-//CHANGE POST ICONS
-add_action( 'admin_head', 'change_icons');
-        	
-function change_icons() {
-    global $post_type;
-    $temp_directory = get_bloginfo('template_directory');
-    
 ?>
-<style>
-
-#menu-posts .wp-menu-image {background: url(<?php echo $temp_directory; ?>/_/img/admin-news-icon.png) no-repeat 0 0 !important;}
-
-#menu-posts:hover .wp-menu-image, 
-#menu-posts.wp-has-current-submenu .wp-menu-image {
-background-position:0 -32px !important;
-}
-
-<?php if ($post_type == 'post') : ?>
-#icon-edit { background: transparent url(<?php echo $temp_directory; ?>/_/img/news-icon-big.png) no-repeat center center; }		
-<?php endif; ?>
-	
- </style>
- 
-<?php } ?>
