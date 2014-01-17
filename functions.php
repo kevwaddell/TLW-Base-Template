@@ -35,7 +35,7 @@ add_custom_background();
 /* CUSTOM FUNCTIONS ----------------------------------------*/
 
 /* CHANGE EDITOR BUTTONS */
-include (TEMPLATEPATH . '/_/functions/change-editor-buttons.php');
+//include (TEMPLATEPATH . '/_/functions/change-editor-buttons.php');
 
 //CHANGE DEFAULT LABELS AND ICONS
 include (TEMPLATEPATH . '/_/functions/change-default-labels.php');
