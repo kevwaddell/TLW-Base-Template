@@ -7,7 +7,6 @@ if ( !function_exists(core_mods) ) {
 		if ( !is_admin() ) {
 		
 			wp_enqueue_script('jquery');
-			wp_enqueue_script('jquery-ui-core');
 				
 			}
 	}
