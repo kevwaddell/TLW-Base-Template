@@ -3,7 +3,7 @@ function myformatTinyMCE($in)
 	{
 	 $in['theme_advanced_blockformats'] = 'p,h3,h4,h5';
 	 $in['theme_advanced_buttons1']='formatselect,forecolor,|,bold,italic,underline,|,bullist,numlist,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,link,unlink,|,hr,|,wp_adv';
-	 $in['theme_advanced_buttons2']='pastetext,pasteword,removeformat,|,charmap,|,undo,redo';
+	 $in['theme_advanced_buttons2']='pastetext,pasteword,removeformat,|,charmap,|,undo,redo,|';
 	 $in['theme_advanced_buttons3']='';
 	 $in['theme_advanced_buttons4']='';
 	 return $in;
